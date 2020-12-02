@@ -145,4 +145,16 @@ snippet "tb([1-9][1-9])" "Fancy table" br
 `!p snip.rv = match.group(1)`
 endsnippet
 
+snippet toc
+<div class="toc">
+$0
+</div>
+endsnippet
+
+snippet det
+<details>
+  <summary>Click to see it</summary>
+  $0
+</details>
+
 # vim:ft=snippets:
